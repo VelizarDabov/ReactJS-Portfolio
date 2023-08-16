@@ -28,9 +28,6 @@ const Contact = () => {
 <h1 className='certificatesTitle'>
 My Certificates
 </h1>
-<p className='certificateDesc'>
-    dfghj
-</p>
 <div className='certificateImgs'>
 <img src={jsbasics} alt="" className="certificateImg" />
 <img src={jsFundamentals} alt="" className="certificateImg" />

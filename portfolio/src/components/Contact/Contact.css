@@ -1,5 +1,5 @@
 #contactPage {
-    min-height: calc(100vh-4rem);
+    min-height: calc(100vh - 5rem);
     width: 100vh;
     max-width: 60rem;
     margin: 0 auto;
@@ -29,8 +29,8 @@ flex-wrap: wrap;
 
 .certificateImg {
    object-fit: cover;
-   width: 40%;
-   min-width: 10rem;
+   width: 50%;
+   min-width: rem;
    margin: auto;
 padding: 0.25rem;
 
@@ -44,6 +44,18 @@ padding: 0.25rem;
     padding: 1rem;
     font-size: medium;
     font-weight: 300;
+}
+
+#contact {
+    min-height: calc(100vh - 5rem);
+    width: 100vh;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .contactForm {
@@ -61,13 +73,13 @@ padding: 0.25rem;
     max-width: 40rem;
     margin: 0.5rem 1rem;
 color: white;
-border: none;
+border: 2rem;
 border-radius: 0.5rem;
-background: rgb(35, 35,35);
+background: rgb(94, 92, 92);
 }
 
 .submitBtn {
-    background: white;
+    background: yellow;
     color:black;
     border: none;
     border-radius: 0.5rem;

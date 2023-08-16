@@ -7,6 +7,7 @@
 position: relative;
 }
 .profilePic{
+
     position: absolute;
     top: -4rem;
     right: 0;
@@ -14,6 +15,8 @@ position: relative;
 object-fit: cover;
 height: 100vh;
 }
+
+  
 .introContent {
     height: 100vh;
     width: 100vh;

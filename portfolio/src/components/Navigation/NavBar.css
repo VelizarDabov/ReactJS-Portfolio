@@ -31,7 +31,7 @@
 
 }
 .desktopMenuBtn {
-  background:white;
+    background: linear-gradient(90deg,yellow,yellow,yellow,yellow);
     color: black;
     border:none;
     display: flex;
@@ -41,6 +41,10 @@
     border-radius: 2rem;
 
 }
+.desktopMenuBtn:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+  }
 .desktopMenuImg {
     object-fit: cover;
     height: 1rem;

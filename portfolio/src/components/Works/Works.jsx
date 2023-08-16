@@ -4,8 +4,7 @@ import './Works.css'
 const Works = () => {
 return (
     <section id='works'>
-      <h2 className="worksTitle"> My portfolio</h2>
-      <span className="workDesc">sdfgh</span>
+      <h2 className="worksTitle"> My portfolio projects</h2>
       <div className="worksImgs">
         <img src={worksPic} alt="" className="worksImg" />
         <img src={worksPic} alt="" className="worksImg" />
@@ -14,7 +13,6 @@ return (
         <img src={worksPic} alt="" className="worksImg" />
         <img src={worksPic} alt="" className="worksImg" />
       </div>
-      <button className="workBtn">See mode</button>
     </section>
 )
 

@@ -12,7 +12,9 @@ const Introduction = () => {
 <p className="introPara">A motivated junior front-end developer with a passion for creating seamless and visually appealing web experiences.</p>
 
 </div>
+<div className='glass'>
 <img src={profilePic} alt='profile' className="profilePic"/>
+</div>
      </section>
     )
 }

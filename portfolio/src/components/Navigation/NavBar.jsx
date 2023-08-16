@@ -10,9 +10,9 @@ const NavBar = () => {
         <img src={logo} alt='logo' className="logo"/>
         <div className="desktopMenu">
 <Link activeClass="active" to='introduction' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Home</Link>
-<Link activeClass="active" to='skills' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>About</Link>
+<Link activeClass="active" to='skills' spy={true} smooth={true} offset={-60} duration={500} className='desktopMenuListItem'>About</Link>
 <Link activeClass="active" to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Portfolio</Link>
-<Link activeClass="active" to='contactPage' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Clients</Link>
+<Link activeClass="active" to='contactPage' spy={true} smooth={true} offset={-60} duration={500} className='desktopMenuListItem'>Certificates</Link>
         </div>
         <button className="desktopMenuBtn" onClick={() => {
             document.getElementById('contact').scrollIntoView({behavior: 'smooth'})
