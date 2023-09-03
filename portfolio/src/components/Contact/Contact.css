@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-.certificatePageTitle {
+.certificatesTitle {
     font-size: 3rem;
     margin-bottom: 1rem;
 
@@ -57,7 +57,11 @@ padding: 0.25rem;
     align-items: center;
     justify-content: center;
 }
+.contactsTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 
+}
 .contactForm {
     margin: 1rem;
     display: flex;
@@ -72,10 +76,10 @@ padding: 0.25rem;
     width: 100%;
     max-width: 40rem;
     margin: 0.5rem 1rem;
-color: white;
+color: rgb(28, 27, 27);
 border: 2rem;
-border-radius: 0.5rem;
-background: rgb(94, 92, 92);
+border-radius:rem;
+background: rgb(249, 249, 249);
 }
 
 .submitBtn {
@@ -85,6 +89,7 @@ background: rgb(94, 92, 92);
     border-radius: 0.5rem;
     margin: 2rem;
     padding: 0.75rem 3.5rem;
+    cursor: pointer;
 }
 
 .links{
@@ -97,3 +102,10 @@ background: rgb(94, 92, 92);
     width: 3rem;
     margin: 0 0.75rem;
 }
+
+.background-container {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(178, 150, 150, 0.3));
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+  }
